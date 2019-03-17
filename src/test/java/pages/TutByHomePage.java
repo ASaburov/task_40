@@ -19,6 +19,7 @@ public class TutByHomePage extends PageObject {
     @FindBy(xpath = "//input[@class='button auth__enter']")
     private WebElement enterSubmit;
 
+
     public TutByHomePage(WebDriver driver) {
         super(driver);
     }
